@@ -1,0 +1,1338 @@
+@import url("../myfonts/transfonter.org-20211006-103613/stylesheet.css");
+@import url("../myfonts/transfonter.org-20211006-103550/stylesheet.css");
+@import url("../myfonts/transfonter.org-20211006-103459/stylesheet.css");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  background: url("../image/hero (1).jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .container {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .container .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .container .hero .logo {
+  margin-top: -15px;
+}
+header .container .hero .logo h1 {
+  font-size: 2.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  position: relative;
+}
+header .container .hero .logo h1::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+header .container .hero .cart {
+  position: absolute;
+  right: 8%;
+  top: 1.6%;
+  z-index: 9999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+header .container .hero .cart ul {
+  display: block;
+}
+header .container .hero .cart ul li {
+  list-style: none;
+  width: 1.5rem;
+  height: 4px;
+  margin: 3px 0;
+  background-color: white;
+  border-radius: 2px;
+}
+header .container .close {
+  position: fixed;
+  right: 7.2%;
+  top: 2.7%;
+  z-index: 99;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+header .container .close ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .container .close ul li {
+  list-style: none;
+  width: 2rem;
+  height: 4px;
+  margin: 3px 0;
+  background-color: white;
+  border-radius: 2px;
+}
+header .container .close ul li:nth-child(1) {
+  -webkit-transform: translateX(2rem) rotate(45deg);
+          transform: translateX(2rem) rotate(45deg);
+}
+header .container .close ul li:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+header .container .welcome {
+  text-align: center;
+  width: 100%;
+  margin-top: 12rem;
+  line-height: 1px;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -1;
+}
+header .container .welcome .wel {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-style: italic;
+  color: #f3b75e;
+  line-height: 10px;
+  font-family: "Fleur De Leah";
+  margin-bottom: 1.5rem;
+  -webkit-animation-name: welcoan;
+          animation-name: welcoan;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+@-webkit-keyframes welcoan {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.7;
+    color: gold;
+    letter-spacing: 10px;
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0;
+  }
+}
+@keyframes welcoan {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.7;
+    color: gold;
+    letter-spacing: 10px;
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0;
+  }
+}
+header .container .welcome .rosahero {
+  line-height: 10px;
+  margin-left: -20px;
+  margin-top: -0.8rem;
+}
+header .container .welcome .rosahero ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+header .container .welcome .rosahero ul li {
+  list-style: none;
+  -webkit-animation: therosa;
+          animation: therosa;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+@-webkit-keyframes therosa {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.8;
+    letter-spacing: 10px;
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0;
+  }
+}
+@keyframes therosa {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.8;
+    letter-spacing: 10px;
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0;
+  }
+}
+header .container .welcome .rosahero ul #left {
+  color: white;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+  margin-right: 12px;
+}
+header .container .welcome .rosahero ul #left::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1.2rem;
+  left: 0;
+  -webkit-animation: lean 2s;
+          animation: lean 2s;
+}
+@-webkit-keyframes lean {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 0%;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+@keyframes lean {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 0%;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+header .container .welcome .rosahero ul #right {
+  color: white;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+  margin-left: 0px;
+}
+header .container .welcome .rosahero ul #right::after {
+  content: "";
+  height: 2px;
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1.2rem;
+  right: 0;
+  -webkit-animation: lean 2s;
+          animation: lean 2s;
+}
+header .container .welcome .rosahero .asterix {
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  right: 47.5%;
+  margin-top: 1.7rem;
+  opacity: 0.7;
+  -webkit-animation-name: aste;
+          animation-name: aste;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  color: #f3b75e;
+}
+@-webkit-keyframes aste {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes aste {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header .container .welcome h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-left: 1.5rem;
+  margin-top: -10px;
+  font-weight: 400;
+  opacity: 0.9;
+  -webkit-animation-name: reado;
+          animation-name: reado;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+@-webkit-keyframes reado {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    letter-spacing: 8px;
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes reado {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    letter-spacing: 8px;
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header .container .welcome button {
+  width: 8em;
+  height: 2rem;
+  color: black;
+  background-color: white;
+  border-style: none;
+  margin-top: 5px;
+  border-radius: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 17px;
+  -webkit-animation-name: explore;
+          animation-name: explore;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+@-webkit-keyframes explore {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.1;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes explore {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.1;
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+header .container nav {
+  position: fixed;
+  width: 0%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  left: 0;
+  top: 0;
+  z-index: 9;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+header .container nav ul {
+  width: 70%;
+  margin: 0;
+  background-color: #0e0b0b;
+  height: 100%;
+  display: block;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+header .container nav ul li {
+  list-style: none;
+  width: 90%;
+  margin: 4rem 0;
+  border-bottom: 1px solid white;
+  text-align: left;
+  padding-bottom: 0;
+}
+header .container nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+header .container .show {
+  width: 100%;
+}
+header .container .remove {
+  display: none;
+}
+header .container .open {
+  display: block;
+}
+
+section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0;
+}
+section .container {
+  width: 90%;
+  margin: 0 auto;
+}
+section .container .title h1 {
+  font-size: 6rem;
+  font-family: "Ephesis";
+  font-weight: 100;
+  color: #f3b75e;
+  font-style: italic;
+  line-height: 5px;
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+section .container .title h2 {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 10px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+section .container .title .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 48%;
+}
+section .container .writeup {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 0;
+}
+section .container .writeup h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #f3b75e;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: -0.2rem;
+}
+section .container .herosupport {
+  margin-top: -0.5rem;
+}
+section .container .herosupport img {
+  width: 100%;
+}
+
+#tastefulrecipes {
+  margin-top: -2rem;
+}
+#tastefulrecipes .topadvert {
+  background-image: url("../image/tasteful-recipes.jpg");
+  min-height: 65vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#tastefulrecipes .topadvert h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  padding-top: 50%;
+  line-height: 50px;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#tastefulrecipes .topadvert h1 span {
+  font-family: "Italianno";
+  font-size: 5rem;
+  color: #f3b75e;
+  letter-spacing: 0px;
+  font-weight: 100;
+}
+#tastefulrecipes .bottomadvert {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#tastefulrecipes .bottomadvert .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.8rem;
+}
+#tastefulrecipes .bottomadvert .gallery img {
+  width: 100%;
+}
+#tastefulrecipes .bottomadvert .info {
+  text-align: center;
+}
+#tastefulrecipes .bottomadvert .info .title {
+  margin-top: -2rem;
+}
+#tastefulrecipes .bottomadvert .info .title h1 {
+  font-size: 6rem;
+  font-family: "Ephesis";
+  font-weight: 100;
+  color: #f3b75e;
+  font-style: italic;
+  line-height: 5px;
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+#tastefulrecipes .bottomadvert .info .title h2 {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 10px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+#tastefulrecipes .bottomadvert .info .title .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 48%;
+}
+#tastefulrecipes .bottomadvert .info .writeup {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 0;
+}
+#tastefulrecipes .bottomadvert .info .writeup h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #f3b75e;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#perfectblend .topadvert {
+  background-image: url("../image/perfect-blend (1).jpg");
+  min-height: 65vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#perfectblend .topadvert h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 8px;
+  padding-top: 50%;
+  line-height: 50px;
+}
+#perfectblend .topadvert h1 span {
+  color: #f3b75e;
+  font-family: "Italianno";
+  font-size: 5rem;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+#perfectblend .bottomadvert {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#perfectblend .bottomadvert .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.8rem;
+}
+#perfectblend .bottomadvert .gallery img {
+  width: 100%;
+  height: 20rem;
+}
+#perfectblend .bottomadvert .info {
+  text-align: center;
+}
+#perfectblend .bottomadvert .info .title {
+  margin-top: 2rem;
+}
+#perfectblend .bottomadvert .info .title h1 {
+  font-size: 6rem;
+  font-family: "Ephesis";
+  font-weight: 100;
+  color: #f3b75e;
+  font-style: italic;
+  line-height: 55px;
+  margin-bottom: 0;
+  margin-top: rem;
+  width: 90%;
+  margin: 0 auto;
+}
+#perfectblend .bottomadvert .info .title h1 span {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-style: normal;
+}
+#perfectblend .bottomadvert .info .title .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 48%;
+}
+#perfectblend .bottomadvert .info .writeup {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 0;
+}
+#perfectblend .bottomadvert .info .writeup h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: #f3b75e;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  margin-top: 4rem;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+footer .container .circle {
+  background-color: black;
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+}
+footer .container .circle img {
+  height: 2rem;
+  -webkit-transform: translate(-0.4rem, 3rem) rotate(269deg);
+          transform: translate(-0.4rem, 3rem) rotate(269deg);
+  -webkit-animation: up 2s infinite;
+          animation: up 2s infinite;
+}
+@-webkit-keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-0.4rem, 3.5rem) rotate(269deg);
+            transform: translate(-0.4rem, 3.5rem) rotate(269deg);
+  }
+}
+@keyframes up {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-0.4rem, 3.5rem) rotate(269deg);
+            transform: translate(-0.4rem, 3.5rem) rotate(269deg);
+  }
+}
+footer .container .info {
+  margin-top: -1rem;
+  text-align: center;
+}
+footer .container .info .title h1 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  color: #f3b75e;
+  margin-bottom: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+footer .container .info .title .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  text-align: center;
+  background-color: #f7e582;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 48%;
+}
+footer .container .info .writeup {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  color: #dfd7d7;
+  margin-bottom: 0;
+  line-height: 30px;
+}
+footer .container .info .writeup h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.7rem;
+  color: #dfd7d7;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+footer .container .social ul {
+  margin-top: 0rem;
+  -webkit-transform: translateX(-1.9rem);
+          transform: translateX(-1.9rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .container .social ul li {
+  list-style: none;
+}
+footer .container .social ul li a {
+  text-decoration: none;
+  margin: 0 3rem;
+}
+footer .container .social ul li a img {
+  width: 1.8rem;
+}
+footer .container .social ul li a:nth-child(1) {
+  margin-left: 0;
+}
+footer .container .social ul li a:nth-child(2) {
+  margin-right: 0;
+}
+footer .container .newsletter {
+  width: 100%;
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+}
+footer .container .newsletter form {
+  width: 100%;
+}
+footer .container .newsletter form h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.7rem;
+  color: #dfd7d7;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 2.5rem;
+}
+footer .container .newsletter form input {
+  width: 90%;
+  margin: 0 auto;
+  height: 2rem;
+  padding: 10px;
+  font-size: 1rem;
+  border-style: none;
+  outline: transparent;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .container .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .container .hero .logo {
+    margin-left: 10rem;
+  }
+  header .container .hero .logo h1 {
+    font-size: 1.5rem;
+  }
+  header .container .hero .cart {
+    display: none;
+  }
+  header .container .hero nav {
+    position: relative;
+    width: 45%;
+    height: 5rem;
+    padding-top: 0;
+    background-color: transparent;
+    margin-right: 10rem;
+  }
+  header .container .hero nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 0rem;
+    margin-left: -2rem;
+  }
+  header .container .hero nav ul li {
+    margin: 0.5rem 2.5rem;
+    border-bottom: none;
+    text-align: center;
+    width: 0;
+  }
+  header .container .hero nav ul li:nth-child(3) {
+    padding-right: 2rem;
+  }
+  header .container .hero nav ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    color: #d3d0d0;
+  }
+  header .container .hero nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5%;
+    background-color: #d3d0d0;
+    width: 0%;
+    height: 2px;
+    -webkit-transition: 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  header .container .hero nav ul li a:hover::after {
+    width: 100%;
+  }
+  header .container .hero nav ul li .active::after {
+    width: 100%;
+  }
+  header .container .asterix {
+    margin-right: 23px;
+  }
+
+  section {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 0;
+  }
+  section .container {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .container .textadvert {
+    width: 90%;
+    margin-right: 2rem;
+    line-height: 15px;
+  }
+  section .container .textadvert .title h1 {
+    font-size: 4rem;
+    font-family: "Ephesis";
+    font-weight: 100;
+    color: #f3b75e;
+    font-style: italic;
+    line-height: 5px;
+    margin-bottom: 0;
+    margin-top: 5rem;
+  }
+  section .container .textadvert .title h2 {
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  section .container .textadvert .title .dot {
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 48%;
+  }
+  section .container .textadvert .writeup {
+    width: 100%;
+  }
+  section .container .textadvert .writeup p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #646363;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  section .container .textadvert .writeup h1 {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  section .container .herosupport {
+    margin-top: 3%;
+  }
+  section .container .herosupport img {
+    width: 95%;
+    height: 90%;
+  }
+
+  #tastefulrecipes {
+    margin-top: -2rem;
+  }
+  #tastefulrecipes .topadvert {
+    height: 50vh;
+    width: 100%;
+  }
+  #tastefulrecipes .topadvert h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-top: 12%;
+    line-height: 50px;
+    width: 20%;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 8px;
+  }
+  #tastefulrecipes .topadvert h1 span {
+    font-family: "Italianno";
+    font-size: 5rem;
+    color: #f3b75e;
+    letter-spacing: 0px;
+    font-weight: 100;
+  }
+  #tastefulrecipes .bottomadvert {
+    width: 70%;
+    margin: 0 auto;
+    height: 40vh;
+    padding-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 2rem;
+  }
+  #tastefulrecipes .bottomadvert .gallery {
+    grid-gap: 10px;
+    margin-right: 3rem;
+    height: 50%;
+  }
+  #tastefulrecipes .bottomadvert .gallery img {
+    width: 12rem;
+    height: 8rem;
+  }
+  #tastefulrecipes .bottomadvert .info {
+    line-height: 18px;
+    width: 100%;
+  }
+  #tastefulrecipes .bottomadvert .info .title h1 {
+    font-size: 4rem;
+    font-family: "Ephesis";
+  }
+  #tastefulrecipes .bottomadvert .info .title h2 {
+    font-size: 1.5rem;
+  }
+  #tastefulrecipes .bottomadvert .info .title .dot {
+    width: 5px;
+    height: 5px;
+  }
+  #tastefulrecipes .bottomadvert .info .writeup {
+    font-size: 12px;
+    color: #646363;
+    font-weight: 500;
+  }
+  #tastefulrecipes .bottomadvert .info .writeup h1 {
+    font-size: 1rem;
+  }
+
+  #perfectblend .topadvert {
+    height: 50vh;
+    width: 100%;
+  }
+  #perfectblend .topadvert h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-top: 12%;
+    line-height: 50px;
+    width: 20%;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 8px;
+  }
+  #perfectblend .topadvert h1 span {
+    font-family: "Italianno";
+    font-size: 5rem;
+    color: #f3b75e;
+    letter-spacing: 0px;
+    font-weight: 100;
+  }
+  #perfectblend .bottomadvert {
+    width: 70%;
+    margin: 0 auto;
+    height: 40vh;
+    padding-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 2rem;
+  }
+  #perfectblend .bottomadvert .gallery {
+    grid-gap: 10px;
+    margin-right: 3rem;
+    height: 100%;
+    width: 50%;
+    margin-left: 2rem;
+  }
+  #perfectblend .bottomadvert .gallery img {
+    width: 100%;
+    height: 90%;
+  }
+  #perfectblend .bottomadvert .info {
+    line-height: 18px;
+    text-align: center;
+    width: 55%;
+  }
+  #perfectblend .bottomadvert .info .title {
+    width: 50%;
+    margin: 0 auto;
+  }
+  #perfectblend .bottomadvert .info .title h1 {
+    font-size: 4rem;
+    font-family: "Ephesis";
+    line-height: 35px;
+  }
+  #perfectblend .bottomadvert .info .title h1 span {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+  #perfectblend .bottomadvert .info .title .dot {
+    width: 5px;
+    height: 5px;
+  }
+  #perfectblend .bottomadvert .info .writeup {
+    font-size: 12px;
+    color: #646363;
+    font-weight: 500;
+    margin-right: 4rem;
+  }
+  #perfectblend .bottomadvert .info .writeup h1 {
+    font-size: 1rem;
+  }
+
+  footer {
+    width: 100%;
+    height: 55vh;
+    margin-top: 1rem;
+    left: 0;
+  }
+  footer .container {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  footer .container .circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-1.2rem);
+            transform: translateY(-1.2rem);
+  }
+  footer .container .circle img {
+    -webkit-transform: translate(-0.7rem, 2.5rem) rotate(269deg);
+            transform: translate(-0.7rem, 2.5rem) rotate(269deg);
+    -webkit-animation: up 2s infinite;
+            animation: up 2s infinite;
+  }
+  @-webkit-keyframes up {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate(-0.7rem, 3rem) rotate(269deg);
+              transform: translate(-0.7rem, 3rem) rotate(269deg);
+    }
+  }
+  @keyframes up {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate(-0.7rem, 3rem) rotate(269deg);
+              transform: translate(-0.7rem, 3rem) rotate(269deg);
+    }
+  }
+  footer .container .info {
+    margin-top: -1rem;
+    text-align: center;
+  }
+  footer .container .info .title {
+    text-align: center;
+  }
+  footer .container .info .title h1 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f3b75e;
+  }
+  footer .container .info .title .dot {
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    background-color: #f7e582;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 50%;
+  }
+  footer .container .info .writeup {
+    width: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #dfd7d7;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+  footer .container .info .writeup h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #dfd7d7;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-left: 0;
+    -webkit-transform: translateX(-13rem);
+            transform: translateX(-13rem);
+    letter-spacing: 2px;
+  }
+  footer .container .social {
+    text-align: center;
+  }
+  footer .container .social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0;
+  }
+  footer .container .social ul li {
+    list-style: none;
+  }
+  footer .container .social ul li a {
+    text-decoration: none;
+    margin: 0 2rem;
+  }
+  footer .container .social ul li a img {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  footer .container .newsletter {
+    width: 50%;
+    margin-top: 0rem;
+    text-align: center;
+    -webkit-transform: translate(26rem, -6.5rem);
+            transform: translate(26rem, -6.5rem);
+  }
+  footer .container .newsletter form {
+    width: 100%;
+  }
+  footer .container .newsletter form h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #dfd7d7;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-left: 20.5rem;
+    -webkit-transform: translateX(-13rem);
+            transform: translateX(-13rem);
+    letter-spacing: 2px;
+  }
+  footer .container .newsletter form input {
+    width: 50%;
+    margin: 0 auto;
+    height: 1rem;
+    padding: 10px;
+    font-size: 12px;
+    border-style: none;
+    outline: transparent;
+  }
+}/*# sourceMappingURL=rosa.css.map */
