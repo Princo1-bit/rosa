@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Ephesis';
+    src: url('Ephesis-Regular.eot');
+    src: url('Ephesis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Ephesis-Regular.woff2') format('woff2'),
+        url('Ephesis-Regular.woff') format('woff'),
+        url('Ephesis-Regular.ttf') format('truetype'),
+        url('Ephesis-Regular.svg#Ephesis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

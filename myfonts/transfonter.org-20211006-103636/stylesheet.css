@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('OleoScriptSwashCaps-Regular.eot');
+    src: url('OleoScriptSwashCaps-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OleoScriptSwashCaps-Regular.woff2') format('woff2'),
+        url('OleoScriptSwashCaps-Regular.woff') format('woff'),
+        url('OleoScriptSwashCaps-Regular.ttf') format('truetype'),
+        url('OleoScriptSwashCaps-Regular.svg#OleoScriptSwashCaps-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('OleoScriptSwashCaps-Bold.eot');
+    src: url('OleoScriptSwashCaps-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OleoScriptSwashCaps-Bold.woff2') format('woff2'),
+        url('OleoScriptSwashCaps-Bold.woff') format('woff'),
+        url('OleoScriptSwashCaps-Bold.ttf') format('truetype'),
+        url('OleoScriptSwashCaps-Bold.svg#OleoScriptSwashCaps-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
